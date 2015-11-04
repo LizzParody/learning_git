@@ -47,10 +47,34 @@ To show everything that is inside the directory
 ```
 ls
 ```
+**Ignore files**
 
-###The path to start tracking changes
+to ignore files, in the file you type:
+*myFile.gitignore*
+[git ignore](https://github.com/github/gitignore)
+
+###Git commands
 
 command | what it does
 -----------|-----------
 git init | initialize a repository
+git status | check the status of a file
+git add | start tracking and saving changes to an specific file- to stage
+git status | check the status of a file
+git commit - m "your message" | to commit a file
+git commit -a -m "your message"| to skip the staging and the commit message
+git rm | remove a file
+git rm -rf | remove a directory
+git rm --chached | delete a file from the staging area
+git mv | to rename or move a file
+git log | shows all the previous commit messages
+git log --pretty=oneline | to see git log in one line
+git log --pretty=format: 
+
+
+
+
+Then you make a commit on your file and to see what has change you press git diff
+
+
 
