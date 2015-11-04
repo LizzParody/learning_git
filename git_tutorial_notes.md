@@ -20,6 +20,33 @@ Complete back ups of everything.
 Git saves all this changes to a directory and then I will be able to modify those files in what is called working directory.
 
 #In the terminal
+
+to configure the editor
 ```
-lizparody$ git config --global core.editor "vim" // to configure the editor
+git config --global core.editor "vim" 
 ```
+
+To list the configuration of git
+
+```
+git config --list
+```
+Help
+
+```
+git help
+```
+
+for specific help
+
+```
+git help add // press q to quit all the info
+```
+
+To show everything that is inside the directory
+```ls```
+
+###The path to start tracking changes:
+
+git init | initialize a repository
+
