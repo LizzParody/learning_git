@@ -61,20 +61,29 @@ git init | initialize a repository
 git status | check the status of a file
 git add | start tracking and saving changes to an specific file- to stage
 git status | check the status of a file
+git diff | to see the difference of what has change in a file
 git commit - m "your message" | to commit a file
 git commit -a -m "your message"| to skip the staging and the commit message
+git commit --amend|to change the commit message
+git reset HEAD myFile.txt | I staged a file using git add but I don't want to stage it-- to unstaged a file
 git rm | remove a file
 git rm -rf | remove a directory
 git rm --chached | delete a file from the staging area
 git mv | to rename or move a file
 git log | shows all the previous commit messages
 git log --pretty=oneline | to see git log in one line
-git log --pretty=format: 
+git log --pretty=format: | "%h : (abreviation of the hash code) %an : (person that made the change) %ar (date that it was changed) : %s" (the first line of the comment)
+git log -p -2| the last two commits
+git log --since=1.weeks | show all the commits from the last week
+git log --since="2015-08-12" | show all the commits from a specific date
+git log --author="Lyzzeth Parody Alvarez" | to show the changes that a specific author has made
+git log --before="2015-05-12" | to see all the changes before that date
 
 
 
 
-Then you make a commit on your file and to see what has change you press git diff
+
+
 
 
 
