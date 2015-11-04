@@ -44,7 +44,9 @@ git help add // press q to quit all the info
 ```
 
 To show everything that is inside the directory
-```ls```
+```
+ls
+```
 
 ###The path to start tracking changes:
 
