@@ -48,7 +48,9 @@ To show everything that is inside the directory
 ls
 ```
 
-###The path to start tracking changes:
+###The path to start tracking changes
 
+command | what it does
+-----------|-----------
 git init | initialize a repository
 
